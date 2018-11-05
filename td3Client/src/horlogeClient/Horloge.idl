@@ -1,0 +1,5 @@
+interface Horloge {
+string get_time();
+string get_time_string();
+void get_time_int(out short heure, out short min);
+};

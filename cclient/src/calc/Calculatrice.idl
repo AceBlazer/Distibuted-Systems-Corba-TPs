@@ -1,0 +1,9 @@
+
+exception DivisionParZero{};
+interface Calculatrice{
+float ajout(in float x,in float y);
+float soustrait(in float x,in float y);
+float mult(in float x,in float y);
+float divis(in float x,in float y) raises (DivisionParZero);
+};
+

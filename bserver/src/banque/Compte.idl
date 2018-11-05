@@ -1,0 +1,7 @@
+interface Compte{
+ 
+     boolean deposer(in double montant) ;
+     boolean retirer(in double montant) ;
+     double afficher();
+    
+};

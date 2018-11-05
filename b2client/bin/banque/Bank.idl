@@ -1,0 +1,13 @@
+interface Bank {
+
+struct Compte {
+long id;
+float solde;
+};
+
+  Compte creer (out long id); // creation d un compte
+  Compte deplacer(in Bank target, in Compte a); // deplacer vers un compte qui se trouve ds la banque target
+  Compte chercher(in long id); //chercher un compte apres avoir fourni un id
+  void supprimer(in Compte a); // supprimer un compte
+
+};

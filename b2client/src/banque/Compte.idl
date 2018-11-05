@@ -1,0 +1,6 @@
+interface Compte {
+  void deposer(in float montant); // deposer de l argent
+  float Labalance(); // get the balance of money 
+  long getNumcompte(); //recuperer le numero de compte
+  void retirer(in float montant);// retirer de l argent 
+};

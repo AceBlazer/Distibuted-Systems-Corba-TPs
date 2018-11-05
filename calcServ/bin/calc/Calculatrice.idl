@@ -1,0 +1,7 @@
+interface Calculatrice {
+float ajouter(in float a1,in float a2);
+float soustraire(in float a1,in float a2);
+float multiplier(in float a1,in float a2);
+void memoriser_dernier_resultat();
+float extraire_memoire(inout float registre);
+};
